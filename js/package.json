@@ -1,0 +1,21 @@
+{
+  "name": "@fof/webhooks",
+  "private": true,
+  "prettier": "@flarum/prettier-config",
+  "dependencies": {
+    "@flarum/prettier-config": "^1.0.0",
+    "flarum-webpack-config": "^3.1.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.2.3"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "format": "prettier --write src"
+  },
+  "devDependencies": {
+    "flarum-tsconfig": "^2.0.0",
+    "prettier": "^3.8.3",
+    "typescript": "^5.9.3"
+  }
+}
